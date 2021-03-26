@@ -1,0 +1,60 @@
+{
+	"info": {
+		"_postman_id": "98b036c6-bf24-445e-93e0-b4ee73cbef96",
+		"name": "adonis-events",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "post-events",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"title\":\"My Birthday Party\",\n    \"start_date\": \"31-08-2021 20:00:00\",\n    \"end_date\": \"01-09-2021 02:00:00\",\n    \"location\" : \"Midelo, Ribeirinha\",\n    \"price\": \"500\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete-events",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"title\":\"My Birthday Party\",\n    \"start_date\": \"31-08-2021 20:00:00\",\n    \"end_date\": \"01-09-2021 02:00:00\",\n    \"location\" : \"Midelo, Ribeirinha\",\n    \"price\": \"500\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get-events",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		}
+	]
+}
